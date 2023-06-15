@@ -48,4 +48,40 @@ section.dark h2::before{
     flex: 1;
     padding: 16px;
     box-shadow: 0 4px 40px -8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+}
+.testimonial .video{
+    margin: -16px;
+    margin-bottom: 0;
+}
+.testimonial .bottom{
+    margin-top: auto;
+}
+.testimonial .name{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1.2;
+    margin-top: 20px;
+}
+.testimonial .designation{
+    font-size: 14px;
+    opacity: 0.8;
+}
+.testimonials-container button,
+.testimonials-container a.btn{
+    padding: 8px 32px;
+    border: none;
+    margin: 24px 0;
+    font-size: 16px;
+    background: #003049;
+    color: #fff;
+    cursor: pointer;
+}
+.testimonials-container a.btn{
+    text-decoration: none;
+    background: #e63946;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
 }
